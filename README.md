@@ -169,7 +169,8 @@ App (interface)
 │
 └── Infra
     └── BancoMemoria
-▶️ Execução
+    
+     Execução
 
 Compilar:
 
