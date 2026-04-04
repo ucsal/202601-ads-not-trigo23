@@ -2,23 +2,30 @@ package br.com.ucsal.olimpiadas;
 
 public class Prova {
 
-	private long id;
-	private String titulo;
+    private long id;
+    private String titulo;
 
-	public long getId() {
-		return id;
-	}
+    public Prova() {
+    }
 
-	public void setId(long id) {
-		this.id = id;
-	}
+    public Prova(long id, String titulo) {
+        this.id = id;
+        this.titulo = titulo;
+    }
 
-	public String getTitulo() {
-		return titulo;
-	}
+    public long getId() {
+        return id;
+    }
 
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
+    public void setId(long id) {
+        this.id = id;
+    }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 }
